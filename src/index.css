@@ -1,0 +1,128 @@
+
+
+
+:root{
+  --bg--primarycolour: rgb(132, 161, 247);
+  --bg--color:rgb(223, 222, 222);
+  --bg--extracolor:rgb(215, 214, 208);
+}
+.welcome{
+  justify-self: center;
+  align-items: center;
+  justify-items: center;
+  box-shadow: 1px 5px 5px 10px grey ;
+  padding: 4rem;
+  margin-top: 50px; 
+}
+
+
+h1{
+font-size:3rem; 
+}
+
+
+input, button{
+  margin-top: 5rem;
+}
+
+input{
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+button{
+  padding: 1.2rem;
+  background-color: var(--bg--primarycolour);
+  border-radius: 1rem;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: 900;
+ box-shadow: 2px 2px 4px ;
+  
+}
+
+button:hover{
+  background-color: rgb(108, 143, 250);
+}
+
+
+
+.question-box{
+  box-shadow: 5px 5px 12px 10px grey;
+  justify-self: center;
+  border-radius: 1rem;
+  padding: 3rem;
+  margin-top: 0;
+  width: 30rem;
+ 
+}
+.options{
+  display: block;
+  box-shadow: 2px 2px 2px 2px blue;
+  margin: 10px;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+}
+
+
+.btn{
+  background-color: var(--bg--color);
+  margin-top: 20px;
+
+}
+.btn:hover{
+  background-color: rgb(187, 189, 190);
+}
+
+
+#next {
+  margin-left:53% ;
+}
+.timer{
+  border: solid black  ;
+  padding: 1rem;
+  border-radius: 50%;
+  background: conic-gradient(rgb(43, 79, 210) var(--progress), rgb(179, 179, 179) 0 );
+  
+  justify-self: right;
+  margin-top: 0;
+  width: 3rem;
+  height: 3rem;
+  align-items: center;
+  justify-items: center;
+  color: aliceblue;
+  font-size: larger;
+ 
+ 
+}
+#start-btn{
+  animation: pop 3s ease-in-out infinite;
+  padding: 1rem;
+  width: 10rem;
+}
+.restart{
+  animation: pop 3s ease-in-out infinite;
+  margin-top: 2.5rem;
+}
+
+.message{
+ margin-top: 3rem;
+ border: 2px solid blue;
+ padding: 0.3rem;
+ border-radius: 0.7rem;
+}
+
+
+
+
+
+
+
+@keyframes pop{
+  0%{
+  transform: scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+}
